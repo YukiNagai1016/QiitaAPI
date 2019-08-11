@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5315CB2300269600F3680C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5315CA2300269600F3680C /* AppDelegate.swift */; };
+		EF5315CD2300269600F3680C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5315CC2300269600F3680C /* ViewController.swift */; };
+		EF5315D02300269600F3680C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5315CE2300269600F3680C /* Main.storyboard */; };
+		EF5315D32300269600F3680C /* APIPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF5315D12300269600F3680C /* APIPractice.xcdatamodeld */; };
+		EF5315D52300269700F3680C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5315D42300269700F3680C /* Assets.xcassets */; };
+		EF5315D82300269700F3680C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5315D62300269700F3680C /* LaunchScreen.storyboard */; };
+		EF5315E22300374300F3680C /* QiitaStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5315E12300374300F3680C /* QiitaStruct.swift */; };
+		EF5315E42300379100F3680C /* QiitaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5315E32300379100F3680C /* QiitaViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF5315C72300269600F3680C /* APIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5315CA2300269600F3680C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF5315CC2300269600F3680C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF5315CF2300269600F3680C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF5315D22300269600F3680C /* APIPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = APIPractice.xcdatamodel; sourceTree = "<group>"; };
+		EF5315D42300269700F3680C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5315D72300269700F3680C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF5315D92300269700F3680C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5315E12300374300F3680C /* QiitaStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaStruct.swift; sourceTree = "<group>"; };
+		EF5315E32300379100F3680C /* QiitaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5315C42300269600F3680C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5315BE2300269600F3680C = {
+			isa = PBXGroup;
+			children = (
+				EF5315C92300269600F3680C /* APIPractice */,
+				EF5315C82300269600F3680C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5315C82300269600F3680C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5315C72300269600F3680C /* APIPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5315C92300269600F3680C /* APIPractice */ = {
+			isa = PBXGroup;
+			children = (
+				EF5315E5230037BA00F3680C /* Model */,
+				EF5315E6230037C400F3680C /* ViewModel */,
+				EF5315E7230037CD00F3680C /* View */,
+				EF5315D42300269700F3680C /* Assets.xcassets */,
+				EF5315D62300269700F3680C /* LaunchScreen.storyboard */,
+				EF5315D92300269700F3680C /* Info.plist */,
+				EF5315D12300269600F3680C /* APIPractice.xcdatamodeld */,
+			);
+			path = APIPractice;
+			sourceTree = "<group>";
+		};
+		EF5315E5230037BA00F3680C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF5315E12300374300F3680C /* QiitaStruct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF5315E6230037C400F3680C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EF5315E32300379100F3680C /* QiitaViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EF5315E7230037CD00F3680C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF5315CE2300269600F3680C /* Main.storyboard */,
+				EF5315CA2300269600F3680C /* AppDelegate.swift */,
+				EF5315CC2300269600F3680C /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5315C62300269600F3680C /* APIPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5315DC2300269700F3680C /* Build configuration list for PBXNativeTarget "APIPractice" */;
+			buildPhases = (
+				EF5315C32300269600F3680C /* Sources */,
+				EF5315C42300269600F3680C /* Frameworks */,
+				EF5315C52300269600F3680C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APIPractice;
+			productName = APIPractice;
+			productReference = EF5315C72300269600F3680C /* APIPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5315BF2300269600F3680C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = com.nagai;
+				TargetAttributes = {
+					EF5315C62300269600F3680C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = EF5315C22300269600F3680C /* Build configuration list for PBXProject "APIPractice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5315BE2300269600F3680C;
+			productRefGroup = EF5315C82300269600F3680C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5315C62300269600F3680C /* APIPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5315C52300269600F3680C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5315D82300269700F3680C /* LaunchScreen.storyboard in Resources */,
+				EF5315D52300269700F3680C /* Assets.xcassets in Resources */,
+				EF5315D02300269600F3680C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5315C32300269600F3680C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5315CD2300269600F3680C /* ViewController.swift in Sources */,
+				EF5315E22300374300F3680C /* QiitaStruct.swift in Sources */,
+				EF5315D32300269600F3680C /* APIPractice.xcdatamodeld in Sources */,
+				EF5315E42300379100F3680C /* QiitaViewModel.swift in Sources */,
+				EF5315CB2300269600F3680C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF5315CE2300269600F3680C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5315CF2300269600F3680C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF5315D62300269700F3680C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5315D72300269700F3680C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5315DA2300269700F3680C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF5315DB2300269700F3680C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5315DD2300269700F3680C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMM4WWA6BY;
+				INFOPLIST_FILE = APIPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagai.APIPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF5315DE2300269700F3680C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMM4WWA6BY;
+				INFOPLIST_FILE = APIPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nagai.APIPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5315C22300269600F3680C /* Build configuration list for PBXProject "APIPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5315DA2300269700F3680C /* Debug */,
+				EF5315DB2300269700F3680C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5315DC2300269700F3680C /* Build configuration list for PBXNativeTarget "APIPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5315DD2300269700F3680C /* Debug */,
+				EF5315DE2300269700F3680C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF5315D12300269600F3680C /* APIPractice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF5315D22300269600F3680C /* APIPractice.xcdatamodel */,
+			);
+			currentVersion = EF5315D22300269600F3680C /* APIPractice.xcdatamodel */;
+			path = APIPractice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF5315BF2300269600F3680C /* Project object */;
+}
